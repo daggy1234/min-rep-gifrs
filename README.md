@@ -11,9 +11,11 @@ Output
 ```bash
 C:\Users\Arnav Jindal\Documents\test-gi>cargo run --release
    Compiling test-gi v0.1.0 (C:\Users\Arnav Jindal\Documents\test-gi)
-    Finished release [optimized] target(s) in 2.09s
+    Finished release [optimized] target(s) in 1.44s
      Running `target\release\test-gi.exe`
-9734ms
+Decoding: 136ms
+File Creation: 0ms
+Gif Encoding: 11194ms
 ```
 
 This means that a basic read-write op for a gif thats included took almost 10s!
